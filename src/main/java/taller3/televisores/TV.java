@@ -5,7 +5,7 @@ public class TV {
   private int canal = 1;
   private int precio = 500;
   boolean estado;
-  private volumen = 1;
+  private int volumen = 1;
   private Control control;
   static int numTV;
 

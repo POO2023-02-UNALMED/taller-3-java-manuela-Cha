@@ -9,37 +9,37 @@ public class Control{
   }  
   
   public void turnOn(){
-    TV.turnOn();
+    tv.turnOn();
   }
   public void turnOff(){
-    TV.turnOff();
+    tv.turnOff();
   }
     
   public void canalUp(){
-    TV.canalUp();
+    tv.canalUp();
   }
   public void canalDown(){
-    TV.canalDown();
+    tv.canalDown();
   }
   
   public void volumenUp(){
-    TV.volumenUp();
+    tv.volumenUp();
   }
   public void volumenDown(){
-    TV.volumenDown();
+    tv.volumenDown();
   }
     
   public void setCanal(int canal){
-    TV.setCanal();
+    tv.setCanal(canal);
   }
   public void setVolumen (int volumen){
-    TV.setVolumen();
+    tv.setVolumen(volumen);
   }
 
   public TV setTV(TV televisor){
-    this.tv = televisor;
+    tv = televisor;
   }
   public void getTV (){
-    return this.tv;
+    return tv;
   }
 }

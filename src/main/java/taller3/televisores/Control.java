@@ -1,10 +1,11 @@
 package taller3.televisores;
 
-public class Control (){
+public class Control{
   private TV tv;
     
   public void enlazar(TV televisor){
-    this.tv = televisor}  
+    this.tv = televisor;
+  }  
   
   public void turnOn(){
     this.estado = true;

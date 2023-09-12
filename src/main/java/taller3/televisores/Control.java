@@ -36,7 +36,7 @@ public class Control{
     tv.setVolumen(volumen);
   }
 
-  public TV setTV(TV televisor){
+  public void setTV(TV televisor){
     tv = televisor;
   }
   public TV getTV (){

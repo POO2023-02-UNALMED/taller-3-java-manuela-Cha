@@ -58,7 +58,7 @@ public class TV {
   public static void setNumTV(int numero){
     TV.numTV = numero;
   }
-  private static int get (){
+  private static int getnumTV (){
     return TV.numTV;
   }
 

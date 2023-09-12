@@ -39,7 +39,7 @@ public class Control{
   public TV setTV(TV televisor){
     tv = televisor;
   }
-  public void getTV (){
+  public TV getTV (){
     return tv;
   }
 }

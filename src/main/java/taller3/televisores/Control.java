@@ -15,17 +15,17 @@ public class Control{
   }
     
   public void canalUp(){
-    ++this.canal;
+    this.canal += 1;
   }
   public void canalDown(){
-    --this.canal;
+    this.canal -= 1;
   }
   
   public void volumenUp(){
-    ++this.volumen;
+    this.volumen += 1;
   }
   public void volumenDown(){
-    --this.volumen;
+    this.volumen -= 1;
   }
     
   public void setCanal(int canal){
